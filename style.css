@@ -26,3 +26,8 @@ footer {
     background: #222;
     color: white;
 }
+
+@media (max-width: 768px) {
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.4rem; }
+}
