@@ -1,6 +1,9 @@
+/* In your css/style.css file */
+
 body {
     background-color: #0F172A;
-    color: #F4F4F4;
+    /* This is a lighter grey that should pass contrast checks */
+    color: #CBD5E1; /* This is slate-300 */
     font-family: 'Inter', sans-serif;
 }
 .font-manrope { font-family: 'Manrope', sans-serif; }
