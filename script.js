@@ -12,3 +12,10 @@ AOS.init({
   duration: 1000,
   once: true,
 });
+
+const toggle = document.querySelector('#theme-toggle');
+toggle.addEventListener('click', () => {
+  document.documentElement.dataset.theme =
+    document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+});
+
